@@ -1,3 +1,7 @@
+import React from "react"
+
 export default function Other() {
-    return 'other'
-};
+  return (
+    <p>other</p>
+  )
+}

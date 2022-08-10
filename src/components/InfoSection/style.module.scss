@@ -1,0 +1,13 @@
+.infoSection {
+    padding: 4rem 0;
+
+    h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: white;
+    }
+
+    &.blue {
+        background-color: lightblue;
+    }
+}

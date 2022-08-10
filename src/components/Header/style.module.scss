@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    a {
+        font-size: 1.5rem;
+        color: orange;
+        font-weight: 700;
+        position: relative;
+
+        span:first-child {
+            color: tomato;
+        }
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        border: none;
+        color: white;
+    }
+
+    .signup {
+        background-color: orange;
+    }
+
+    .login {
+        background: none;
+    }
+}

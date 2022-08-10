@@ -1,9 +1,15 @@
- function Main() {
-    return (
-        <div>
-          <h2>Home</h2>
-        </div>
-      );
-};
+import React, { Fragment } from "react";
+import Automatization from "../../components/Automatization";
+import TopSection from "../../components/TopSection";
+
+function Main() {
+  
+  return (
+    <Fragment>
+      <TopSection />
+      <Automatization />
+    </Fragment>
+  )
+}
 
 export default Main

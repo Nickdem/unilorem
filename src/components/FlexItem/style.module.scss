@@ -1,0 +1,50 @@
+.descBlock,
+.imgBlock {
+  flex-basis: 49%;
+}
+
+.descBlock {
+  h3 {
+    font-size: 2rem;
+    padding-bottom: 4rem;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 2rem;
+      left: 0;
+      height: 5px;
+      width: 50px;
+      background: black;
+    }
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.imgBlock {
+  img {
+    width: 100%;
+  }
+}
+
+.listItem {
+  flex-basis: 35%;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 20px;
+}
+
+.resultItem {
+  flex-basis: 28%;
+  text-align: center;
+
+  h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+}

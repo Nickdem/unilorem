@@ -1,0 +1,12 @@
+.flexWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}

@@ -1,3 +1,4 @@
+import React from "react"
 import {
   Route,
   Routes,
@@ -6,6 +7,8 @@ import {
 
 import Main from "./pages/Main/";
 import Other from "./pages/Other";
+
+import './style.scss'
 
 function App() {
   return (
